@@ -1,0 +1,50 @@
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# IntelliJ
+.idea/
+/.project
+
+# Fastlane
+/fastlane/screenshots/screenshots.html-e
+/fastlane/test_output
+/fastlane/report.xml
+/fastlane/slather_report
+/*.app.dSYM.zip
+/Preview.html
+
+# CocoaPods
+Podfile.lock
+Pods
+
+# Carthage
+Carthage
+
+# Ruby, RVM, Rubygems, Bundler
+.bundle/
+vendor/bundle/
+
+# Jenkins
+build
+
+# Mock server
+webapp.pid

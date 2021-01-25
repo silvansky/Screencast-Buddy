@@ -11,6 +11,10 @@
 		A31CD1A725BEA44300BB0778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CD1A625BEA44300BB0778 /* ViewController.swift */; };
 		A31CD1A925BEA44500BB0778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31CD1A825BEA44500BB0778 /* Assets.xcassets */; };
 		A31CD1AC25BEA44500BB0778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31CD1AA25BEA44500BB0778 /* Main.storyboard */; };
+		A31CD1B625BEA4AA00BB0778 /* BorderlessWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CD1B525BEA4AA00BB0778 /* BorderlessWindow.swift */; };
+		A31CD1B925BEA5C700BB0778 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CD1B825BEA5C700BB0778 /* BackgroundView.swift */; };
+		A31CD1BD25BEA8BA00BB0778 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CD1BC25BEA8BA00BB0778 /* VideoView.swift */; };
+		A31CD1C025BEBB8900BB0778 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CD1BF25BEBB8900BB0778 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		A31CD1AB25BEA44500BB0778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A31CD1AD25BEA44500BB0778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31CD1AE25BEA44500BB0778 /* Screencast_Buddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screencast_Buddy.entitlements; sourceTree = "<group>"; };
+		A31CD1B525BEA4AA00BB0778 /* BorderlessWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderlessWindow.swift; sourceTree = "<group>"; };
+		A31CD1B825BEA5C700BB0778 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		A31CD1BC25BEA8BA00BB0778 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		A31CD1BF25BEBB8900BB0778 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			children = (
 				A31CD1A425BEA44300BB0778 /* AppDelegate.swift */,
 				A31CD1A625BEA44300BB0778 /* ViewController.swift */,
+				A31CD1BF25BEBB8900BB0778 /* SettingsViewController.swift */,
+				A31CD1BC25BEA8BA00BB0778 /* VideoView.swift */,
+				A31CD1B525BEA4AA00BB0778 /* BorderlessWindow.swift */,
+				A31CD1B825BEA5C700BB0778 /* BackgroundView.swift */,
 				A31CD1A825BEA44500BB0778 /* Assets.xcassets */,
 				A31CD1AA25BEA44500BB0778 /* Main.storyboard */,
 				A31CD1AD25BEA44500BB0778 /* Info.plist */,
@@ -133,7 +145,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31CD1A725BEA44300BB0778 /* ViewController.swift in Sources */,
+				A31CD1BD25BEA8BA00BB0778 /* VideoView.swift in Sources */,
+				A31CD1B625BEA4AA00BB0778 /* BorderlessWindow.swift in Sources */,
+				A31CD1B925BEA5C700BB0778 /* BackgroundView.swift in Sources */,
 				A31CD1A525BEA44300BB0778 /* AppDelegate.swift in Sources */,
+				A31CD1C025BEBB8900BB0778 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
