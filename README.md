@@ -13,8 +13,9 @@ macOS only.
 
 ## TODO
 
-- Video capturing from iPhone/iPad
+- App icon
 - More preferences
 - Make window sticky
 - Better resizing
 - Camera selection
+- Video capturing from iPhone/iPad
